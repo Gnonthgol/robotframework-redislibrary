@@ -12,13 +12,13 @@ with open(version_file) as file:
 
 requirements = [
     'robotframework>=3.0',
-    'redis>=2.10.5'
+    'redis>=4.1.0'
 ]
 
 test_requirements = [
     'tox',
     'coverage',
-    'fakeredis==0.8.2'
+    'fakeredis>=2.5.0'
 ]
 
 CLASSIFIERS = """
